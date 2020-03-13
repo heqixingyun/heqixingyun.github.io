@@ -118,10 +118,8 @@
                 var liTmpl = "";
                 for (var i = 0, len = data.link.length; i < len; i++) {
                    
-                    var minSrc = 'https://github.com/heqixingyun/heqixingyun.github.io/blob/master/min_photos/
-' + data.link[i];
-                    var src = 'https://github.com/heqixingyun/heqixingyun.github.io/blob/master/photos/
-' + data.link[i];
+                    var minSrc = 'https://github.com/heqixingyun/LR/blob/master/LR//min_photos/' + data.link[i];
+                    var src = 'https://github.com/heqixingyun/LR/blob/master/LR/photos/' + data.link[i];
                   
                     var type = data.type[i];
                     var target = src + (type === 'video' ? '.mp4' : '.jpg');
