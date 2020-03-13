@@ -118,9 +118,9 @@
                 var liTmpl = "";
                 for (var i = 0, len = data.link.length; i < len; i++) {
                     /*var minSrc = 'https://raw.githubusercontent.com/ainimini/Picture/master/' + data.link[i];
-                    var src = 'https://github.com/heqixingyun/heqixingyun.github.io/blob/master/min_photos/
+                    var src = 'https://github.com/heqixingyun/heqixingyun.github.io/raw/master/min_photos/
 ' + data.link[i];*/
-                    var minSrc = 'https://github.com/heqixingyun/heqixingyun.github.io/blob/master/photos/
+                    var minSrc = 'https://github.com/heqixingyun/heqixingyun.github.io/raw/master/photos/
 ' + data.link[i];
                     var src = 'https://raw.githubusercontent.com/ainimini/BlogPicture/master/photos/' + data.link[i];
                     var type = data.type[i];
